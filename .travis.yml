@@ -11,7 +11,7 @@ jobs:
       script: yarn build
     - deploy:
         provider: surge
-        project: ./build/
+        project: ./build
         token: $SURGE_TOKEN
         login: $SURGE_LOGIN
         domain: https://pr-${TRAVIS_PULL_REQUEST}.maxvektor-money-counter.surge.sh/

@@ -33,7 +33,7 @@
     "start:server": "http-server ./build -p 3005 -a 127.0.0.1",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "yarn test:unit && yarn test:e2e-with-start",
+    "test": "yarn test:unit",
     "test:unit": "react-scripts test",
     "test:e2e": "jest -c e2e/jest.config.js",
     "test:e2e:watch": "jest -c e2e/jest.config.js --watch",

@@ -1,3 +1,8 @@
 language: node_js
 node_js:
   - 12
+deploy:
+  provider: surge
+  skip_cleanup: true
+  project: ./build/
+  domain: https://maxvektor-money-counter.surge.sh/

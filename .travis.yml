@@ -9,5 +9,5 @@ deploy:
   provider: surge
   project: ./build/
   domain: https://pr-${TRAVIS_PULL_REQUEST}.maxvektor-money-counter.surge.sh/
-on:
-  all_branches: true
+  on:
+    all_branches: true

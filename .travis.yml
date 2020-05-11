@@ -8,6 +8,8 @@ build:
 deploy:
   provider: surge
   project: ./build/
+  token: $SURGE_TOKEN
+  login: $SURGE_LOGIN
   domain: https://pr-${TRAVIS_PULL_REQUEST}.maxvektor-money-counter.surge.sh/
   on:
     all_branches: true

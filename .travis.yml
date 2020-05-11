@@ -1,0 +1,20 @@
+language: node_js
+node_js:
+  - 12
+jobs:
+  include:
+    - stage: "install"
+      name: "install"
+      script: yarn install
+    - stage: "build"
+      name: "build"
+      script: yarn build
+    - stage: "deploy"
+    - deploy:
+        provider: surge
+        project: ./build
+        token: $SURGE_TOKEN
+        login: $SURGE_LOGIN
+        domain: https://pr-${TRAVIS_PULL_REQUEST}.maxvektor-money-counter.surge.sh/
+        on:
+          all_branches: true

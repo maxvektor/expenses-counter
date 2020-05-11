@@ -9,7 +9,7 @@ describe("App", () => {
   let itemsListDriver: ReturnType<typeof createItemsListDriver>;
 
   beforeAll(async () => {
-    await page.goto("http://localhost:3000");
+    await page.goto("http://localhost:3005");
     addFormDriver = createAddFormDriver(page, testIds.addForm);
     itemsListDriver = createItemsListDriver(page, testIds.itemsList);
   });

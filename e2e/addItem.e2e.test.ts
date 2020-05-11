@@ -8,7 +8,7 @@ describe("App", () => {
   let itemsListDriver: ReturnType<typeof createItemsListDriver>;
 
   beforeAll(async () => {
-    await page.goto("127.0.0.1:3005");
+    await page.goto("http://127.0.0.1:3005");
     addFormDriver = createAddFormDriver(page, testIds.addForm);
     itemsListDriver = createItemsListDriver(page, testIds.itemsList);
   });

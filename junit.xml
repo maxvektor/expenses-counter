@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="0" time="7.833">
+  <testsuite name="App" errors="0" failures="0" skipped="0" timestamp="2020-05-11T16:42:54" time="7.688" tests="3">
+    <testcase classname="App Add from should exist" name="App Add from should exist" time="0.429">
+    </testcase>
+    <testcase classname="App List of items Should not exist before items is added" name="App List of items Should not exist before items is added" time="0.112">
+    </testcase>
+    <testcase classname="App List of items After item is added Should show new item in items list" name="App List of items After item is added Should show new item in items list" time="0.634">
+    </testcase>
+  </testsuite>
+</testsuites>

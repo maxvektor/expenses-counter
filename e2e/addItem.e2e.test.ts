@@ -2,14 +2,13 @@ import { createAddFormDriver } from "../src/components/AddForm/AddForm.e2e.drive
 import { createItemsListDriver } from "../src/components/ItemsList/ItemsList.e2e.driver";
 
 import { testIds } from "../src/components/App/testIds";
-jest.setTimeout(8000);
 
 describe("App", () => {
   let addFormDriver: ReturnType<typeof createAddFormDriver>;
   let itemsListDriver: ReturnType<typeof createItemsListDriver>;
 
   beforeAll(async () => {
-    await page.goto("http://localhost:3000");
+    await page.goto("http://127.0.0.1:3005");
     addFormDriver = createAddFormDriver(page, testIds.addForm);
     itemsListDriver = createItemsListDriver(page, testIds.itemsList);
   });

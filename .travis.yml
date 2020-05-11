@@ -3,8 +3,7 @@ node_js:
   - 12
 deploy:
   provider: surge
-  skip_cleanup: true
   project: ./build/
-  domain: https://pr-${TRAVIS_PULL_REQUEST}-maxvektor-money-counter.surge.sh/
+  domain: https://pr-${TRAVIS_PULL_REQUEST}.maxvektor-money-counter.surge.sh/
   on:
     all_branches: true

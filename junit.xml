@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="0" time="1.306">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2020-05-11T16:11:20" time="0.748" tests="1">
+    <testcase classname=" Should render &lt;AddForm/&gt;" name=" Should render &lt;AddForm/&gt;" time="0.023">
+    </testcase>
+  </testsuite>
+  <testsuite name="&lt;AddForm/&gt;" errors="0" failures="0" skipped="0" timestamp="2020-05-11T16:11:20" time="0.117" tests="3">
+    <testcase classname="&lt;AddForm/&gt; Should render input for name" name="&lt;AddForm/&gt; Should render input for name" time="0.005">
+    </testcase>
+    <testcase classname="&lt;AddForm/&gt; Should render input for value" name="&lt;AddForm/&gt; Should render input for value" time="0.002">
+    </testcase>
+    <testcase classname="&lt;AddForm/&gt; Should render submit button" name="&lt;AddForm/&gt; Should render submit button" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>

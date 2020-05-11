@@ -34,7 +34,9 @@ jobs:
 
       - run:
           name: unit test
-          command: yarn test
+          command: yarn test:unit:ci
+          environment:
+            JEST_JUNIT_OUTPUT_DIR: "coverage/js-tests-results.xml"
 
       - run:
           name: runing server
@@ -45,8 +47,8 @@ jobs:
       # run tests!
       - run:
           name: "Run Jest and Collect Coverage Reports"
-          command: CI=true yarn test:e2e --runInBand --reporters=default --reporters=jest-junit
+          command: yarn test:e2e:ci
           environment:
-            JEST_JUNIT_OUTPUT_DIR: "coverage/js-tests-results.xml"
+            JEST_JUNIT_OUTPUT_DIR: "coverage/js-e2e-tests-results.xml"
       - store_test_results:
           path: coverage

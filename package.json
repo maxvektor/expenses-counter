@@ -30,9 +30,11 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test:unit": "react-scripts test",
     "test:e2e": "jest -c e2e/jest.config.js",
     "test:e2e:watch": "jest -c e2e/jest.config.js --watch",
+    "test:e2e:ci": "CI=true jest -c e2e/jest.config.js --runInBand --reporters=default --reporters=jest-junit",
+    "test:unit:ci": "CI=true react-scripts test --runInBand --reporters=default --reporters=jest-junit",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

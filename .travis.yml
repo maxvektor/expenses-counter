@@ -9,6 +9,7 @@ jobs:
     - stage: "build"
       name: "build"
       script: yarn build
+    - stage: "deploy"
     - deploy:
         provider: surge
         project: ./build

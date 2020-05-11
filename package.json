@@ -7,6 +7,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "start-server-and-test": "^1.11.0",
     "typescript": "~3.7.2"
   },
   "devDependencies": {
@@ -35,6 +36,7 @@
     "test:e2e:watch": "jest -c e2e/jest.config.js --watch",
     "test:e2e:ci": "CI=true jest -c e2e/jest.config.js --runInBand --reporters=default --reporters=jest-junit",
     "test:unit:ci": "CI=true react-scripts test --runInBand --reporters=default --reporters=jest-junit",
+    "test:e2e-with-start": "start-server-and-test start http://localhost:3005 test:e2e:ci",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

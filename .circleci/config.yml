@@ -38,16 +38,10 @@ jobs:
           environment:
             JEST_JUNIT_OUTPUT_DIR: "coverage/js-tests-results.xml"
 
-      - run:
-          name: runing server
-          command: yarn start
-          background: true
-
-
       # run tests!
       - run:
           name: "Run Jest and Collect Coverage Reports"
-          command: yarn test:e2e:ci
+          command: yarn test:e2e-with-start
           environment:
             JEST_JUNIT_OUTPUT_DIR: "coverage/js-e2e-tests-results.xml"
       - store_test_results:

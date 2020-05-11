@@ -2,9 +2,6 @@ import { createAddFormDriver } from "../src/components/AddForm/AddForm.e2e.drive
 import { createItemsListDriver } from "../src/components/ItemsList/ItemsList.e2e.driver";
 
 import { testIds } from "../src/components/App/testIds";
-jest.setTimeout(8000);
-
-console.log(process.env)
 
 describe("App", () => {
   let addFormDriver: ReturnType<typeof createAddFormDriver>;

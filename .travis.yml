@@ -5,4 +5,4 @@ deploy:
   provider: surge
   skip_cleanup: true
   project: ./build/
-  domain: https://maxvektor-money-counter.surge.sh/
+  domain: https://pr-${TRAVIS_PULL_REQUEST}-maxvektor-money-counter.surge.sh/

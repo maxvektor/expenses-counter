@@ -30,7 +30,7 @@
     "ts-jest": "^25.5.1"
   },
   "scripts": {
-    "start:server": "http-server ./build -p 3005 -a localhost",
+    "start:server": "http-server ./build -p 3005 -a 127.0.0.1",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test:unit": "react-scripts test",

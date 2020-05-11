@@ -4209,6 +4209,11 @@ csstype@^2.2.0:
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/csstype/-/csstype-2.6.10.tgz#e63af50e66d7c266edb6b32909cfd0aabe03928b"
   integrity sha1-5jr1DmbXwmbttrMpCc/Qqr4Dkos=
 
+cuid@^2.1.8:
+  version "2.1.8"
+  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/cuid/-/cuid-2.1.8.tgz#cbb88f954171e0d5747606c0139fb65c5101eac0"
+  integrity sha1-y7iPlUFx4NV0dgbAE5+2XFEB6sA=
+
 cwd@^0.10.0:
   version "0.10.0"
   resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/cwd/-/cwd-0.10.0.tgz#172400694057c22a13b0cf16162c7e4b7a7fe567"

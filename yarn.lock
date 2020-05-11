@@ -3532,8 +3532,8 @@ csstype@^2.2.0:
 
 cuid@^2.1.8:
   version "2.1.8"
-  resolved "https://repo.dev.wixpress.com/artifactory/api/npm/npm-repos/cuid/-/cuid-2.1.8.tgz#cbb88f954171e0d5747606c0139fb65c5101eac0"
-  integrity sha1-y7iPlUFx4NV0dgbAE5+2XFEB6sA=
+  resolved "https://registry.yarnpkg.com/cuid/-/cuid-2.1.8.tgz#cbb88f954171e0d5747606c0139fb65c5101eac0"
+  integrity sha512-xiEMER6E7TlTPnDxrM4eRiC6TRgjNX9xzEZ5U/Se2YJKr7Mq4pJn/2XEHjl3STcSh96GmkHPcBXLES8M29wyyg==
 
 cwd@^0.10.0:
   version "0.10.0"
